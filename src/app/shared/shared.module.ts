@@ -13,7 +13,8 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
     HeaderUserComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+  ],
+  exports:[SideBarComponent]
 })
 export class SharedModule { }
